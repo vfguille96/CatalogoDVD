@@ -21,5 +21,12 @@
       <FileName>Pais.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="CatalogoDVD.DaoDVDMySQL">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DaoDVDMySQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
