@@ -10,8 +10,15 @@
   <Class Name="CatalogoDVD.Dvd">
     <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQQQBEAEAAAgAAAQAAAAEAIAAAAAQAGAAFA=</HashCode>
       <FileName>Dvd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CatalogoDVD.Pais">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Pais.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
