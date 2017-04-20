@@ -30,7 +30,7 @@ namespace CatalogoDVD
             {
                 switch(ex.Number)
                 {
-                    case 0: throw new Exception("Error de conexión.");
+                    case 0: throw new Exception("Error de conexión." + ex.ErrorCode);
                     case 1045: throw new Exception("Usuario o contraseña incorrectos.");
                     default: throw;
                 }

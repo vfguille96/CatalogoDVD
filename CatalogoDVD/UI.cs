@@ -23,13 +23,14 @@ namespace CatalogoDVD
         {
             // Única clase que puede hablar con la consola, para no crear dependecia.
 
-            Console.WriteLine("CATALOGO DE DVDs - Menu de opciones");
-            Console.WriteLine("===================================");
-            Console.WriteLine("(0) Conectar con la Base de Datos");
-            Console.WriteLine("(Q) Fin del programa");
+            Console.WriteLine(" CATALOGO DE DVDs - Menu de opciones");
+            Console.WriteLine(" ===================================");
+            Console.WriteLine();
+            Console.WriteLine(" (0) Conectar con la Base de Datos");
+            Console.WriteLine(" (Q) Fin del programa");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("Opción? ");
+            Console.Write(" Opción: ");
         }
 
         static void PedirOpcion()
@@ -47,7 +48,12 @@ namespace CatalogoDVD
                         case '0': // Conexión BD.
                             if (dao.Conectar(host, bd, usr, pwd))                             
                             {
-                                Console.WriteLine("Conexión exitosa a la Base de Datos: " + bd);
+                                Console.WriteLine();
+                                Console.WriteLine();
+                                Console.WriteLine("***********************************************************");
+                                Console.WriteLine(" Conexión exitosa a la Base de Datos: " + bd);
+                                Console.WriteLine("***********************************************************");
+                                Console.WriteLine();
                             }
                             break;
                         default:
@@ -56,7 +62,9 @@ namespace CatalogoDVD
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Ha ocurrido un error: " + e.Message);
+                    Console.WriteLine("**********************************************************************");
+                    Console.WriteLine(" Ha ocurrido un error: " + e.Message);
+                    Console.WriteLine("**********************************************************************");
                 }
 
             } while (opcion.Key != ConsoleKey.Q);
