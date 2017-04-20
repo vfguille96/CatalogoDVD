@@ -12,6 +12,7 @@ namespace CatalogoDVD
         static void Main(string[] args)
         {
             Console.WriteLine("Aplicación de gestión de DVDs.");
+            new UI();
 
             Console.ReadLine();
         }
